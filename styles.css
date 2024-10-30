@@ -1,0 +1,45 @@
+body, html {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.crt-container {
+    position: relative;
+    width: 1200px;
+    height: auto;
+}
+
+.crt-tv-frame {
+    width: 100%;
+    display: block;
+    z-index: 0;
+    opacity: 0.15;
+}
+
+#tv-screen {
+    position: absolute;
+    top: 24.5%;  
+    left: 24.5%;  
+    width: 50%; 
+    height: 38%; 
+    z-index: 10; 
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#gif1, #gif2, #gif3, #gif4 {
+    display: none;
+    position: absolute;
+    top: 24.5%;  
+    left: 24.5%;  
+    width: 50%; 
+    height: 38%; 
+    border-radius: 10px;
+    z-index: 100;
+}
+
